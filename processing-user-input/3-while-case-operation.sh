@@ -12,6 +12,14 @@
 # -n	检测字符串长度是否不为 0，不为 0 返回 true。	[ -n "$a" ] 返回 true。
 # $	检测字符串是否为空，不为空返回 true。	[ $a ] 返回 true。
 
+# 整数的运算
+# [ integer1 -eq integer2 ]：如果integer1等于integer2，则为true。
+# [ integer1 -ne integer2 ]：如果integer1不等于integer2，则为true。
+# [ integer1 -le integer2 ]：如果integer1小于或等于integer2，则为true。
+# [ integer1 -lt integer2 ]：如果integer1小于integer2，则为true。
+# [ integer1 -ge integer2 ]：如果integer1大于或等于integer2，则为true。
+# [ integer1 -gt integer2 ]：如果integer1大于integer2，则为true。
+
 while [ -n "$1" ]
 do
   case "$1" in
