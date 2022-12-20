@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 #累加数组中的值
 function addarray {
